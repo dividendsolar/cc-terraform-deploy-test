@@ -4,7 +4,8 @@
 1. Use brew to install terraform
 2. clone this repo
 3. Create `terraform.tfvars` with the following contents
- ```aws_access_key  = "your-access-key"
+ ```
+    aws_access_key  = "your-access-key"
     aws_secret_key  = "your-aws-secret-key"
     app_environment = "dev"
     env_file        = "dev.json"
