@@ -3,7 +3,19 @@
 # Terraform
 1. Use brew to install terraform
 2. clone this repo
-3. Update `terraform.tfvars` with your AWS access keys
+3. Create `terraform.tfvars` with the following contents
+ ```aws_access_key  = "your-access-key"
+    aws_secret_key  = "your-aws-secret-key"
+    app_environment = "dev"
+    env_file        = "dev.json"
+    app_image_name  = "sriks2009/ccv2:latest"
+    web_desired_count = 1
+    web_fargate_cpu = 8192
+    web_fargate_memory = 24576
+    worker_desired_count = 1
+    worker_fargate_cpu = 8192
+    worker_fargate_memory = 24576
+    aws_region = "us-west-1"```
 4. `terraform init`
 5. Create file `dev.json`. Ping me to get the file
 5. `terraform apply` (accept yes on prompt) (to deploy)
