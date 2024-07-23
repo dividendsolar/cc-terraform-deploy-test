@@ -3,7 +3,8 @@
 # Terraform
 1. Use brew to install terraform
 2. clone this repo
-3. Create `terraform.tfvars` with the following contents
+3. Create `terraform.tfvars` with the following contents.
+For the purposes of this test, create a IAM role that has admin rights and grab the access key & secret key 
  ```
     aws_access_key  = "your-access-key"
     aws_secret_key  = "your-aws-secret-key"
