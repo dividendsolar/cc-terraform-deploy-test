@@ -25,4 +25,6 @@ For the purposes of this test, create a IAM role that has admin rights and grab 
 7. CC should be deployed to your aws account. Adding Application load balancer is still todo right now.
 
 
-NOTE: Ensure you destroy to make sure there's no aws charges
+NOTE: 
+1. Ensure you destroy to make sure there's no aws charges
+2. This will not work in 5/3 environment, but this is close enough!
